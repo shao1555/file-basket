@@ -41,4 +41,5 @@ Temporary Items
 # hello
 # --------------------
 hello/node_modules
-hello/dist/*
+hello/dist/*.js
+hello/dist/*.js.map
