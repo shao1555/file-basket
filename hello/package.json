@@ -1,0 +1,16 @@
+{
+  "name": "file-basket-hello",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.2.35"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "run": "coffee -c index.coffee && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
