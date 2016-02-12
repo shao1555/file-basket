@@ -41,3 +41,4 @@ Temporary Items
 # hello
 # --------------------
 hello/node_modules
+hello/dist/*

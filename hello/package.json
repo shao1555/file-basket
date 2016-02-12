@@ -1,14 +1,19 @@
 {
   "name": "file-basket-hello",
   "version": "0.0.1",
-  "description": "",
+  "description": "file basket playground",
   "main": "index.js",
   "dependencies": {
-    "aws-sdk": "^2.2.35"
+    "aws-sdk": "^2.2.35",
+    "coffee-script": "^1.1.10"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^1.6.0"
+  },
   "scripts": {
-    "run": "coffee -c index.coffee && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
