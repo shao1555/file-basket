@@ -43,3 +43,4 @@ Temporary Items
 hello/node_modules
 hello/dist/*.js
 hello/dist/*.js.map
+hello/.env
