@@ -22,7 +22,6 @@ if(sourceFiles.length > 0) {
   aws.config.credentials.get( (err) => {
     if (!err) {
       console.log(`Cognito Identity Id: ${aws.config.credentials.identityId}`);
-
       var s3 = new aws.S3({params: {Bucket: process.env.AWS_S3_BUCKET}});
       s3.putObject({
         Key: 'anon/2.jpg',
