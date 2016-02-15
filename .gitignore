@@ -44,3 +44,10 @@ hello/node_modules
 hello/dist/*.js
 hello/dist/*.js.map
 hello/.env
+
+# --------------------
+# frontend
+# --------------------
+file-basket-frontend/node_modules
+file-basket-frontend/bundle.js
+file-basket-frontend/.env
